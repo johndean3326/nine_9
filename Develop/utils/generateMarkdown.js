@@ -60,7 +60,8 @@ function generateMarkdown(data) {
   ${data.test}
   ## Questions
 
-  Questions or issues please direct them to: 
+  Questions or issues please direct them to:  ${data.questions} or on [GitHub](https://github.com/${data.question2}).
+  
   
 
 `;
