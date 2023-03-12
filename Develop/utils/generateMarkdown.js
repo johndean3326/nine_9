@@ -37,7 +37,31 @@ function renderLicenseSection(license) { if (license === 'No License') {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ${renderLicenseBadge(data.license)}
+  ## Description 
+  ${data.description}
+  ## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [How to contribute](#Contribution)
+  - [Test](#Test)
+  - [Questions](#Questions)
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+   
+  ${renderLicenseSection(data.license)} 
+  Copyright (c) John Dean.  All rights reserved. Licensed under the ${renderLicenseLink(data.license)} license.
+  ## Contribution
+   ${data.contributing}
+  ## Test
+  ${data.test}
+  ## Questions
+
+  Questions or issues please direct them to: 
+  
 
 `;
 }
