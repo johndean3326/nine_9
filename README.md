@@ -1,6 +1,6 @@
-# Readme Generator Challenge 9 
+# Readme Generator challenge 9 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description 
-  The Readme generator allows you to use node.js cli to create professional redme.md files
+  the readme generator allows you to use node.js cli to create a professional Readme.md file
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -9,19 +9,20 @@
   - [Test](#Test)
   - [Questions](#Questions)
   ## Installation
-  Install node.js and npm inquirer@8.2.4
+  install node.js and npm inquirer@8.2.4
   ## Usage
-  Open terminal in VS code and in the folder that contains the file and run node index.js
+  open terminal in vs code nad in the folder that contains the file and run node index.js
    
-   
-  Copyright (c) John Dean.  All rights reserved. Licensed under the  license.
+  ## License 
+  MIT 
+  Copyright (c) John Dean.  All rights reserved. Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
   ## Contribution
    none
   ## Test
-  none
+  john.dean3326@gmail.com
   ## Questions
 
-  Questions or issues please direct them to: 
+  Questions or issues please direct them to:  johndean3326 or on [GitHub](https://github.com/johndean3326).
+  
   
 
-[ReadmeGenerator9.webm](https://user-images.githubusercontent.com/113262365/224526912-3a9b86cd-351c-4c94-ae02-f0c72793813d.webm)
